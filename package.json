@@ -1,6 +1,6 @@
 {
   "name": "@linhnvg1/icons",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "license": "MIT",
   "packageManager": "yarn@3.5.1",
   "publishConfig": {
