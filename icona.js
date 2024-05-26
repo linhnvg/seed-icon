@@ -1,5 +1,5 @@
 import { generate } from "@icona/generator";
-import seedIconsPkg from "./package.json" assert { type: "json" };
+import seedIconsPkg from "./package.json" with { type: "json" };
 
 generate({
   config: {
