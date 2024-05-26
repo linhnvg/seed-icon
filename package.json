@@ -1,8 +1,6 @@
 {
-  "name": "@cat/icons",
+  "name": "@linhnvg1/icons",
   "version": "0.6.1",
-  "repository": "https://github.com/daangn/seed-icon.git",
-  "author": "junghyeonsu <jung660317@naver.com>",
   "license": "MIT",
   "packageManager": "yarn@3.5.1",
   "publishConfig": {
