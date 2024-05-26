@@ -251,31 +251,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cat/icons@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@cat/icons@workspace:."
-  dependencies:
-    "@changesets/cli": ^2.26.2
-    "@icona/generator": ^0.6.0
-    "@icona/types": ^0.6.0
-    "@icona/utils": ^0.6.0
-    "@svgr/plugin-jsx": ^8.0.1
-    "@svgr/plugin-prettier": ^8.0.1
-    "@svgr/plugin-svgo": ^8.0.1
-    "@types/react": ^18.2.13
-    "@types/react-dom": ^18.2.6
-    esbuild: ^0.18.6
-    glob: ^10.3.0
-    nanobundle: ^1.6.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    svgo: ^3.0.2
-    typescript: ^5.1.3
-  peerDependencies:
-    react: "*"
-  languageName: unknown
-  linkType: soft
-
 "@changesets/apply-release-plan@npm:^6.1.4":
   version: 6.1.4
   resolution: "@changesets/apply-release-plan@npm:6.1.4"
@@ -937,6 +912,31 @@ __metadata:
   checksum: 0572669f855260808c16fe8f78f5f1b4356463b11d3f2c7c0b5580c8ba1cbf4ae53efe9f627595830856e57dbac2325ac17eb0c3dd0ec42102e6f227cc289c02
   languageName: node
   linkType: hard
+
+"@linhnvg1/icons@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@linhnvg1/icons@workspace:."
+  dependencies:
+    "@changesets/cli": ^2.26.2
+    "@icona/generator": ^0.6.0
+    "@icona/types": ^0.6.0
+    "@icona/utils": ^0.6.0
+    "@svgr/plugin-jsx": ^8.0.1
+    "@svgr/plugin-prettier": ^8.0.1
+    "@svgr/plugin-svgo": ^8.0.1
+    "@types/react": ^18.2.13
+    "@types/react-dom": ^18.2.6
+    esbuild: ^0.18.6
+    glob: ^10.3.0
+    nanobundle: ^1.6.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    svgo: ^3.0.2
+    typescript: ^5.1.3
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
 
 "@manypkg/find-root@npm:^1.1.0":
   version: 1.1.0
