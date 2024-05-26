@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
 import { Ref, forwardRef } from 'react';
-const VerifyBadgeIcon = (
+const VerifyBadge2Icon = (
   {
     size = 24,
     ...props
@@ -29,5 +29,5 @@ const VerifyBadgeIcon = (
     </g>
   </svg>
 );
-const ForwardRef = forwardRef(VerifyBadgeIcon);
+const ForwardRef = forwardRef(VerifyBadge2Icon);
 export default ForwardRef;
