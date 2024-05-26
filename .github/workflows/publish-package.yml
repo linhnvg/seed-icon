@@ -3,14 +3,14 @@ on:
     branches:
       - main
 
-name: 패키지를 출판해요 - main
+name: Publish Package
 
 env:
   GITHUB_TOKEN: ${{ github.token }}
 
 jobs:
   publish-package:
-    name: 패키지를 출판해요
+    name: Publish Package Production
     runs-on: ubuntu-latest
 
     steps:
@@ -18,7 +18,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: "20"
           # registry-url: https://npm.pkg.github.com/
 
       - uses: actions/cache@v2
@@ -32,12 +32,12 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-v1-
 
-      - name: Unplugged된 의존성을 설치하고 Yarn 파일들이 설치과정중에 변하지 않는지 확인해요. (만약 이 스텝에서 오류가 발생한다면 "yarn install"을 수행하고 커밋, 푸시하세요)
+      - name: 🚀 Check Change Yarn.lock
         run: |
           yarn install --immutable
         shell: bash
 
-      - name: 릴리즈 Pull Request를 만들거나 패키지를 배포해요
+      - name: 🚀 Flag changeset
         id: changesets
         uses: changesets/action@v1
         with:

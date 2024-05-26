@@ -50,30 +50,6 @@ generate({
         ],
       },
     },
-    drawable: {
-      active: true,
-      genMode: "recreate",
-      path: "drawable",
-      svg2vectordrawableConfig: {},
-      defaultColor: "@color/gray900",
-    },
-    pdf: {
-      active: true,
-      genMode: "recreate",
-      path: "pdf",
-      pdfKitConfig: {
-        size: [24, 24],
-        margin: 0,
-        layout: "landscape",
-      },
-      svgToPdfOptions: {
-        x: 0,
-        y: 0,
-        assumePt: true,
-        width: 24,
-        height: 24,
-      },
-    },
     react: {
       active: true,
       genMode: "recreate",
@@ -151,29 +127,6 @@ generate({
           height: "{size}",
         },
       },
-    },
-    png: {
-      active: true,
-      genMode: "recreate",
-      path: "png",
-    },
-    font: {
-      active: true,
-      genMode: "recreate",
-      svgToFontOptions: {
-        src: "svg",
-        dist: "font",
-        fontName: "seed-icon",
-      }
-    },
-    flutter: {
-      active: true,
-      genMode: "recreate",
-      path: "flutter",
-      ttfPath: "font/seed-icon.ttf", // Path to the TTF file
-
-      fileName: "SeedIcons", // Name of the generated class and file
-      fontFamily: "SeedIcon",
     },
   },
 });
