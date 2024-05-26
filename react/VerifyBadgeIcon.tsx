@@ -1,6 +1,9 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
 import { Ref, forwardRef } from 'react';
+/**
+ * JSX
+ * */
 const VerifyBadgeIcon = (
   {
     size = 24,
