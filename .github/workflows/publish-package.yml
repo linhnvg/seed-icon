@@ -20,9 +20,10 @@ jobs:
         with:
           node-version: "20"
           registry-url: 'https://registry.npmjs.org/'
-          node-version-file: '.nvmrc'
           cache: 'npm'
 
+      - run:
+          yarn publish --access public
       - uses: actions/cache@v2
         id: yarn-unplugged-cache
         with:
