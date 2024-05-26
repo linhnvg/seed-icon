@@ -32,10 +32,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-v1-
 
-#      - name: 🚀 Check Change Yarn.lock
-#        run: |
-#          yarn install --immutable
-#        shell: bash
+      - name: 🚀 Check Change Yarn.lock
+        run: |
+          yarn install
+        shell: bash
 
       - name: 🚀 Flag changeset
         id: changesets
